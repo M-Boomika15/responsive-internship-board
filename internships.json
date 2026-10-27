@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "company": "Northstar Labs",
+    "role": "Junior Frontend Developer Intern",
+    "domain": "Web Development",
+    "location": "Remote",
+    "workMode": "Remote",
+    "stipend": 12000,
+    "duration": "3 months",
+    "type": "Paid",
+    "description": "Build accessible, responsive interfaces with a supportive product team.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "applyUrl": "https://example.com/apply/northstar"
+  },
+  {
+    "id": 2,
+    "company": "CloudSpring",
+    "role": "Cloud Operations Intern",
+    "domain": "Cloud & DevOps",
+    "location": "Coimbatore, Tamil Nadu",
+    "workMode": "Hybrid",
+    "stipend": 10000,
+    "duration": "4 months",
+    "type": "Paid",
+    "description": "Learn cloud monitoring, Linux basics, and deployment workflows.",
+    "skills": [
+      "Linux",
+      "Git",
+      "Cloud basics"
+    ],
+    "applyUrl": "https://example.com/apply/cloudspring"
+  },
+  {
+    "id": 3,
+    "company": "ByteBridge",
+    "role": "Java Developer Intern",
+    "domain": "Java Development",
+    "location": "Bengaluru, Karnataka",
+    "workMode": "On-site",
+    "stipend": 8000,
+    "duration": "3 months",
+    "type": "Paid",
+    "description": "Practice Java fundamentals, debugging, and simple backend features.",
+    "skills": [
+      "Java",
+      "OOP",
+      "SQL"
+    ],
+    "applyUrl": "https://example.com/apply/bytebridge"
+  },
+  {
+    "id": 4,
+    "company": "DataNest",
+    "role": "Data Analyst Intern",
+    "domain": "Data & Analytics",
+    "location": "Remote",
+    "workMode": "Remote",
+    "stipend": 7000,
+    "duration": "2 months",
+    "type": "Paid",
+    "description": "Clean sample datasets and communicate insights using charts.",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Excel"
+    ],
+    "applyUrl": "https://example.com/apply/datanest"
+  },
+  {
+    "id": 5,
+    "company": "Pixel Harbor",
+    "role": "UI/UX Design Intern",
+    "domain": "Design",
+    "location": "Chennai, Tamil Nadu",
+    "workMode": "Hybrid",
+    "stipend": 6000,
+    "duration": "3 months",
+    "type": "Paid",
+    "description": "Help improve user journeys, wireframes, and accessible design systems.",
+    "skills": [
+      "Figma",
+      "Wireframing",
+      "Accessibility"
+    ],
+    "applyUrl": "https://example.com/apply/pixelharbor"
+  },
+  {
+    "id": 6,
+    "company": "SecurePath",
+    "role": "Cybersecurity Intern",
+    "domain": "Cybersecurity",
+    "location": "Remote",
+    "workMode": "Remote",
+    "stipend": 9000,
+    "duration": "3 months",
+    "type": "Paid",
+    "description": "Explore security fundamentals, documentation, and safe lab exercises.",
+    "skills": [
+      "Networking",
+      "Linux",
+      "Security basics"
+    ],
+    "applyUrl": "https://example.com/apply/securepath"
+  },
+  {
+    "id": 7,
+    "company": "GreenGrid Tech",
+    "role": "QA Automation Intern",
+    "domain": "Testing",
+    "location": "Hyderabad, Telangana",
+    "workMode": "On-site",
+    "stipend": 7500,
+    "duration": "3 months",
+    "type": "Paid",
+    "description": "Write test cases and learn how teams verify software releases.",
+    "skills": [
+      "Testing",
+      "JavaScript",
+      "Git"
+    ],
+    "applyUrl": "https://example.com/apply/greengrid"
+  },
+  {
+    "id": 8,
+    "company": "OpenTrail",
+    "role": "Technical Content Intern",
+    "domain": "Content & Documentation",
+    "location": "Remote",
+    "workMode": "Remote",
+    "stipend": 5000,
+    "duration": "2 months",
+    "type": "Paid",
+    "description": "Create beginner-friendly technical guides and keep documentation clear.",
+    "skills": [
+      "Writing",
+      "Markdown",
+      "Research"
+    ],
+    "applyUrl": "https://example.com/apply/opentrail"
+  }
+]

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore sample internship opportunities and filter them by keyword and domain.">
+  <title>Internship Board | Find your next opportunity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="Internship Board home"><span class="brand-mark" aria-hidden="true">i</span><span>Internship<span class="brand-light">Board</span></span></a>
+      <nav aria-label="Main navigation"><a href="#opportunities" class="nav-link">Opportunities</a><a href="#about" class="nav-link">About</a></nav>
+      <a class="header-cta" href="#opportunities">Explore roles <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow glow-one" aria-hidden="true"></div><div class="hero-glow glow-two" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> YOUR NEXT CHAPTER STARTS HERE</p>
+        <h1 id="hero-title">Small steps.<br><span>Big opportunities.</span></h1>
+        <p class="hero-copy">Find an internship that turns what you're learning into what you can do. Explore roles, discover new paths, and get started.</p>
+        <a class="hero-button" href="#opportunities">Find your internship <span aria-hidden="true">↓</span></a>
+        <div class="hero-note"><span aria-hidden="true">✳</span> Sample listings for learning and demonstration</div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="art-card card-back"><span class="tiny-label">YOUR POTENTIAL</span><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="art-card card-front"><div class="art-icon">✦</div><p>Make your<br><strong>next move.</strong></p><div class="art-progress"><span></span></div><small>Curiosity → Experience</small></div>
+        <div class="float-chip chip-top">✧ Learn by doing</div><div class="float-chip chip-bottom"><span class="chip-check">✓</span> One opportunity at a time</div>
+      </div>
+    </section>
+
+    <section class="opportunities section-wrap" id="opportunities" aria-labelledby="list-title">
+      <div class="section-heading">
+        <div><p class="eyebrow dark-eyebrow">THE OPPORTUNITY BOARD</p><h2 id="list-title">Find your <span>fit.</span></h2><p class="section-copy">A few good places to start. Your next skill could begin here.</p></div>
+        <div class="result-summary"><strong id="result-count">0</strong><span> opportunities</span></div>
+      </div>
+
+      <form class="filter-panel" id="filter-form" role="search">
+        <div class="search-field">
+          <label for="search-input">Search internships</label>
+          <div class="input-with-icon"><span aria-hidden="true">⌕</span><input id="search-input" name="search" type="search" placeholder="Role, company, skill..." autocomplete="off"><button type="button" id="clear-search" class="clear-search" aria-label="Clear search" hidden>×</button></div>
+        </div>
+        <div class="domain-field">
+          <label for="domain-filter">Choose a domain</label>
+          <select id="domain-filter" name="domain"><option value="all">All domains</option></select>
+        </div>
+        <button class="filter-button" type="submit">Find roles <span aria-hidden="true">→</span></button>
+      </form>
+
+      <div class="active-filter-row"><p id="results-status" class="results-status" role="status" aria-live="polite">Loading internships…</p><button id="reset-filters" class="reset-button" type="button">Reset filters <span aria-hidden="true">↺</span></button></div>
+      <div id="error-state" class="message-state error-state" role="alert" hidden><div class="state-icon">!</div><h3>We couldn't load the opportunities</h3><p>Please try loading the sample listings again.</p><button type="button" class="secondary-button" id="retry-button">Try again</button></div>
+      <div id="empty-state" class="message-state" hidden><div class="state-icon">⌕</div><h3>No matching internships yet</h3><p>Try a different keyword or choose another domain.</p><button type="button" class="secondary-button" id="empty-reset">Clear filters</button></div>
+      <div id="internship-grid" class="internship-grid" aria-label="Internship listings"></div>
+      <p class="demo-disclaimer">Demo project · Companies and listings are fictional. Application links are placeholders and are not real vacancies.</p>
+    </section>
+
+    <section class="bottom-cta" id="about"><div class="cta-star" aria-hidden="true">✳</div><div><p class="eyebrow">YOUR JOURNEY, YOUR PACE</p><h2>Start curious.<br><span>Leave with experience.</span></h2><p>Every expert started somewhere. Make this your somewhere.</p></div><a href="#opportunities" class="cta-link">Explore opportunities <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true">i</span><span>Internship<span class="brand-light">Board</span></span></a><p>Built with HTML, CSS & JavaScript · A beginner portfolio project</p><a href="#main" class="back-top">Back to top ↑</a></footer>
+</body>
+</html>
